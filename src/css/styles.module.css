@@ -1,0 +1,171 @@
+/* Navbar */
+.navbar {
+    list-style: none;
+    overflow: hidden;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rgb(29,41,81); */
+}
+
+.navlist {
+    color: black;
+    float: right;
+    /* padding-bottom: 10px; */
+}
+
+.navlist_a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 25px;
+    /* padding-bottom: px; */
+}
+
+.navlist:hover {
+    /* background-color: rgb(42, 59, 116); */
+    background-color: rgb(221, 221, 221);
+}
+
+/* About me div */
+
+.divAboutMe {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    border-style: solid;
+    border-color: #A89466;
+    border-left: unset;
+    border-right: unset;
+}
+
+/* Skills */
+.divSkills {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #E5DFD1;
+
+    text-align: center;
+    border-style: solid;
+    border-color: #A89466;
+    border-left: unset;
+    border-top: unset;
+    border-right: unset;
+}
+
+.divPortfolio {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #FDFDFB;
+    /* background-color: #E5DFD1; */
+    border-style: solid;
+    border-color: #A89466;
+    border-left: unset;
+    border-top: unset;
+    border-right: unset;
+}
+
+/* Bottom div  */
+.divBottom {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* color: white; */
+    font-weight: lighter;
+    /* background-color: #465A75; */
+}
+  
+/* Home page  */
+.background_home {
+    background-image: url('../assets/IMG_7100.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home {
+    color: #F2EFE8;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: lighter;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-top: '40%';
+    padding-bottom: '40%';
+}
+
+.headers {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: auto;
+    max-width: 140px;
+    border-bottom: 2px solid #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+
+
+.div_logos {
+    /* display: block; */
+    align-items: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logos {
+    background-color: #F2EFE8;
+    max-width: 60px;
+    max-height: 60px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+
+
+/* About me */
+
+.text_aboutme {
+    max-width: 300px;
+    margin: auto;
+    font-size: 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    /* text-align: ; */
+}
+
+.background_aboutme {
+    background-image: url('../assets/profile_pic.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.container_aboutme {
+    height: 1000px;
+    padding-bottom: 20px;
+}
+
+.box_aboutme {
+    background-color: rgba(255, 255, 255, .8);
+    position: relative;
+    margin-bottom: 40px;
+    left: 80px;
+    top: 40px;
+    width: 600px;
+    height: 850px;
+    border-radius: 15px;
+}
+
